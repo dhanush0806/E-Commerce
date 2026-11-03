@@ -1,0 +1,225 @@
+.cart-page-wrapper {
+  padding: 24px 16px;
+}
+
+.cart-grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 24px;
+}
+
+.cart-products-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 24px;
+}
+
+.cart-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.cart-card-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0f1111;
+}
+
+.price-header-label {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.free-delivery-progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  margin: 16px 0;
+  font-size: 0.88rem;
+}
+
+.green-check {
+  color: #16a34a;
+}
+
+.cart-items-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-item-row {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+  gap: 20px;
+}
+
+.cart-row-img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+}
+
+.cart-row-meta {
+  flex: 1;
+}
+
+.cart-row-meta h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 4px;
+}
+
+.cart-row-meta h3 a:hover {
+  color: #007185;
+}
+
+.in-stock-label {
+  display: block;
+  font-size: 0.78rem;
+  color: #007600;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.eligible-free-ship {
+  font-size: 0.75rem;
+  color: #565959;
+}
+
+.cart-row-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.qty-pill select {
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: #f0f2f2;
+}
+
+.action-pipe {
+  color: #cbd5e1;
+}
+
+.text-action-btn {
+  background: none;
+  border: none;
+  color: #007185;
+  font-size: 0.82rem;
+}
+
+.text-action-btn:hover {
+  text-decoration: underline;
+}
+
+.cart-row-price {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0f1111;
+  text-align: right;
+  min-width: 100px;
+}
+
+.cart-card-footer {
+  text-align: right;
+  padding-top: 20px;
+  font-size: 1.15rem;
+}
+
+.cart-sidebar-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 20px;
+  height: fit-content;
+}
+
+.subtotal-line {
+  font-size: 1.1rem;
+  color: #0f1111;
+  margin-bottom: 16px;
+}
+
+.subtotal-amount {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.btn-proceed-to-buy {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #0f1111;
+  transition: var(--transition);
+}
+
+.btn-proceed-to-buy:hover {
+  background-color: #f7ca00;
+}
+
+.security-assure-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  font-size: 0.78rem;
+  color: #565959;
+}
+
+.empty-cart-container {
+  padding: 60px 16px;
+}
+
+.empty-cart-white-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 48px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.empty-cart-white-card h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.empty-cart-white-card p {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.btn-shop-today {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  border-radius: 24px;
+  font-weight: 700;
+  color: #0f1111;
+}
+
+@media (max-width: 868px) {
+  .cart-grid-layout {
+    grid-template-columns: 1fr;
+  }
+}

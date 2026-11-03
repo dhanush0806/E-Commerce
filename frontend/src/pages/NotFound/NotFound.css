@@ -1,0 +1,33 @@
+.not-found-page {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.not-found-card {
+  text-align: center;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 60px 40px;
+  max-width: 500px;
+}
+
+.not-found-card h1 {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: var(--amazon-orange);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.not-found-card h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.not-found-card p {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}

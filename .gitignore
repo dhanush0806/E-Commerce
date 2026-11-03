@@ -1,0 +1,26 @@
+# Dependencies & Build
+node_modules/
+dist/
+target/
+*.class
+*.jar
+.env
+.env.local
+
+# IDE & OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+build/
+coverage/
+.next/
+.vite/
+*.log
+.DS_Store

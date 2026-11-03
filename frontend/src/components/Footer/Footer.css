@@ -1,0 +1,145 @@
+.commercial-footer {
+  background-color: var(--amazon-subnav);
+  color: #dddddd;
+  margin-top: 50px;
+}
+
+.back-to-top-btn {
+  width: 100%;
+  padding: 14px 0;
+  background-color: #37475a;
+  color: #fff;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: var(--transition);
+}
+
+.back-to-top-btn:hover {
+  background-color: #485769;
+}
+
+.footer-trust-strip {
+  background-color: #1a222d;
+  padding: 24px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.trust-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.trust-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.trust-item svg {
+  color: var(--amazon-yellow);
+  flex-shrink: 0;
+}
+
+.trust-item strong {
+  display: block;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.trust-item span {
+  font-size: 0.78rem;
+  color: #999;
+}
+
+.footer-columns-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding: 48px 16px;
+}
+
+.footer-nav-col h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.footer-nav-col ul {
+  list-style: none;
+}
+
+.footer-nav-col li {
+  margin-bottom: 8px;
+}
+
+.footer-nav-col a {
+  font-size: 0.82rem;
+  color: #ccc;
+  transition: var(--transition);
+}
+
+.footer-nav-col a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-bottom-bar {
+  background-color: var(--amazon-nav);
+  padding: 30px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.bottom-content {
+  text-align: center;
+}
+
+.footer-brand-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.brand-logo {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.yellow-dot {
+  color: var(--amazon-yellow);
+}
+
+.payment-badges {
+  display: flex;
+  gap: 10px;
+}
+
+.payment-badges span {
+  background-color: #232f3e;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.copyright-line {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+@media (max-width: 820px) {
+  .footer-columns-wrapper {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}

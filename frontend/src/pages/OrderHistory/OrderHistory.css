@@ -1,0 +1,143 @@
+.your-orders-page {
+  padding: 32px 16px;
+  max-width: 980px;
+}
+
+.orders-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.orders-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.amazon-order-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.order-card-header {
+  background-color: #f0f2f2;
+  border-bottom: 1px solid var(--border);
+  padding: 14px 20px;
+  display: flex;
+  gap: 32px;
+  font-size: 0.82rem;
+  color: #565959;
+}
+
+.meta-cell span {
+  display: block;
+}
+
+.meta-cell strong {
+  color: #0f1111;
+  font-size: 0.9rem;
+}
+
+.order-id-cell {
+  margin-left: auto;
+  text-align: right;
+}
+
+.order-id-cell a {
+  color: #007185;
+  font-weight: 600;
+}
+
+.order-card-body {
+  padding: 20px;
+}
+
+.status-heading {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f1111;
+}
+
+.sub-status-note {
+  font-size: 0.85rem;
+  color: #565959;
+}
+
+.order-items-grid {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.order-item-visual-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.order-item-visual-row img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.item-info h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.item-info h4 a:hover {
+  color: #007185;
+}
+
+.qty-tag {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.btn-actions-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.btn-buy-again {
+  padding: 6px 14px;
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #0f1111;
+}
+
+.btn-track-item {
+  padding: 6px 14px;
+  background-color: #fff;
+  border: 1px solid #888;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.no-orders-box {
+  background: #fff;
+  border: 1px solid var(--border);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.btn-start-shopping {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 24px;
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  border-radius: 20px;
+  font-weight: 700;
+  color: #0f1111;
+}

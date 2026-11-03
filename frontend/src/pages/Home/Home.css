@@ -1,0 +1,272 @@
+.commercial-home {
+  padding-bottom: 40px;
+}
+
+.promo-ticker {
+  background-color: #232f3e;
+  color: #febd69;
+  font-size: 0.85rem;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ticker-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.marketplace-hero {
+  margin-top: 16px;
+}
+
+.hero-card-banner {
+  background: linear-gradient(135deg, #131921 0%, #232f3e 100%);
+  border-radius: var(--radius-md);
+  color: #fff;
+  padding: 48px;
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  align-items: center;
+  gap: 40px;
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+.deal-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #cc0c39;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.banner-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.banner-desc {
+  font-size: 1.05rem;
+  color: #d1d5db;
+  line-height: 1.6;
+  margin-bottom: 28px;
+  max-width: 540px;
+}
+
+.banner-btn-row {
+  display: flex;
+  gap: 16px;
+}
+
+.btn-shop-deals {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--amazon-yellow);
+  color: #111;
+  padding: 12px 26px;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: var(--transition);
+}
+
+.btn-shop-deals:hover {
+  background-color: var(--amazon-orange);
+}
+
+.btn-explore-cat {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: var(--transition);
+}
+
+.btn-explore-cat:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.banner-right-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.featured-hero-img {
+  width: 100%;
+  max-width: 380px;
+  border-radius: var(--radius-md);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
+}
+
+.category-rail-section {
+  margin-top: 24px;
+}
+
+.category-rail {
+  background: #fff;
+  border-radius: var(--radius-sm);
+  padding: 16px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.cat-rail-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  transition: var(--transition);
+}
+
+.cat-rail-item:hover {
+  background-color: #f1f5f9;
+}
+
+.cat-thumb {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: #eee;
+}
+
+.cat-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cat-rail-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.section-deals {
+  margin-top: 24px;
+}
+
+.deals-card-panel {
+  background: #fff;
+  border-radius: var(--radius-sm);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+.deals-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.header-left {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+
+.header-left h2 {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.deal-clock {
+  font-size: 0.85rem;
+  color: #cc0c39;
+  font-weight: 700;
+}
+
+.see-all-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.deals-product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.value-props-section {
+  margin-top: 32px;
+}
+
+.props-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.prop-box {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 24px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.prop-icon {
+  color: var(--primary);
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+.prop-box h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.prop-box p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .hero-card-banner {
+    grid-template-columns: 1fr;
+    padding: 32px 20px;
+    text-align: center;
+  }
+  .banner-desc {
+    margin: 0 auto 24px;
+  }
+  .banner-btn-row {
+    justify-content: center;
+  }
+  .props-grid {
+    grid-template-columns: 1fr;
+  }
+}

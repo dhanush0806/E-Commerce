@@ -1,0 +1,129 @@
+.commercial-auth-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 16px;
+  min-height: calc(100vh - 140px);
+}
+
+.auth-brand-logo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--secondary);
+  margin-bottom: 24px;
+}
+
+.auth-brand-logo span {
+  color: var(--amazon-orange);
+}
+
+.auth-box {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 32px 30px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: var(--shadow-sm);
+}
+
+.auth-box h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.auth-clean-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.auth-field label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.password-label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.forgot-link {
+  font-size: 0.78rem;
+  color: #007185;
+}
+
+.auth-field input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #888;
+  border-radius: 4px;
+  outline: none;
+  font-size: 0.95rem;
+}
+
+.auth-field input:focus {
+  border-color: #e77600;
+  box-shadow: 0 0 3px 2px rgba(228, 121, 17, 0.5);
+}
+
+.btn-auth-continue {
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-top: 8px;
+  transition: var(--transition);
+}
+
+.btn-auth-continue:hover {
+  background-color: #f7ca00;
+}
+
+.auth-legal-notice {
+  font-size: 0.75rem;
+  color: #565959;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.auth-divider-line {
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  border-top: 1px solid var(--border);
+  margin: 28px 0 16px;
+  line-height: 0.1em;
+}
+
+.auth-divider-line span {
+  background: var(--bg-main);
+  padding: 0 12px;
+  font-size: 0.78rem;
+  color: #767676;
+}
+
+.btn-create-account-hollow {
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #888;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #0f1111;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.btn-create-account-hollow:hover {
+  background-color: #f8fafc;
+}

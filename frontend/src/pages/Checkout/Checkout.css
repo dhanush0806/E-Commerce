@@ -1,0 +1,238 @@
+.commercial-checkout-page {
+  padding: 24px 16px;
+}
+
+.checkout-top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.checkout-top-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.checkout-ssl-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #15803d;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.checkout-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 24px;
+}
+
+.checkout-step-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.step-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.step-header-row h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.link-add-address {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  color: #007185;
+  font-weight: 700;
+  font-size: 0.88rem;
+}
+
+.addresses-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.address-card-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  cursor: pointer;
+}
+
+.address-card-label.active {
+  border-color: #f08804;
+  background-color: #fcf5ee;
+}
+
+.address-content strong {
+  font-size: 0.95rem;
+  color: #0f1111;
+}
+
+.address-content p {
+  font-size: 0.85rem;
+  color: #333;
+  margin-top: 2px;
+}
+
+.phone-line {
+  color: #666 !important;
+  font-size: 0.8rem !important;
+}
+
+.address-entry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.form-three-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px;
+}
+
+.form-item label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.form-item input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #888;
+  border-radius: 4px;
+  font-size: 0.92rem;
+}
+
+.address-form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.btn-cancel-addr {
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+}
+
+.btn-submit-addr {
+  padding: 8px 20px;
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.payment-gateways-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.payment-gateway-option {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.payment-gateway-option.checked {
+  border-color: #f08804;
+  background-color: #fcf5ee;
+}
+
+.gateway-desc strong {
+  display: block;
+  font-size: 0.95rem;
+}
+
+.gateway-desc span {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.order-review-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 20px;
+}
+
+.btn-place-order-golden {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  border-radius: 24px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #0f1111;
+  transition: var(--transition);
+}
+
+.btn-place-order-golden:hover:not(:disabled) {
+  background-color: #f7ca00;
+}
+
+.legal-agreement-text {
+  font-size: 0.72rem;
+  color: #565959;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.summary-line {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.88rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.summary-grand-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #b12704;
+}
+
+@media (max-width: 868px) {
+  .checkout-grid-container {
+    grid-template-columns: 1fr;
+  }
+}

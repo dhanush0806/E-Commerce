@@ -1,0 +1,102 @@
+.account-page-wrapper {
+  padding: 32px 16px;
+  max-width: 980px;
+}
+
+.account-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.account-hub-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.hub-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.hub-card:hover {
+  background-color: #f8fafc;
+}
+
+.hub-icon {
+  width: 40px;
+  height: 40px;
+  color: var(--amazon-orange);
+  flex-shrink: 0;
+}
+
+.hub-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.hub-card p {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.account-form-pane {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 32px;
+}
+
+.account-form-pane h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 12px;
+}
+
+.account-details-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 500px;
+}
+
+.form-group-row label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.form-group-row input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #888;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.input-read {
+  background-color: #f1f5f9;
+  cursor: not-allowed;
+}
+
+.btn-save-account {
+  align-self: flex-start;
+  padding: 10px 24px;
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
